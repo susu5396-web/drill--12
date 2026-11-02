@@ -1,6 +1,7 @@
 from pico2d import *
 from boy import Boy
 from grass import Grass
+from grass1 import Grass1
 import game_world
 
 
