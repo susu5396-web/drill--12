@@ -5,6 +5,7 @@ from grass1 import Grass1
 import game_world
 
 
+
 # Game object class here
 
 
@@ -32,6 +33,12 @@ def reset_world():
 
     grass = Grass()
     game_world.add_object(grass,0) #바깥으로 분리한겨
+
+    grass1 = Grass1()
+    game_world.add_object(grass1,1)
+
+
+  
 
 
 
